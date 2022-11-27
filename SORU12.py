@@ -1,4 +1,5 @@
-for i in range (0,2006):
-    j=str(i)+"0000"
-    if 2005-i==int(j[0])+int(j[1])+int(j[2])+int(j[3]):
-        print(i)
+for i in range(1000,2005):
+    a=str(i)
+    if int(a[0])+int(a[1])+int(a[2])+int(a[3])==2005-int(a):
+        print(a)
+        #:)
